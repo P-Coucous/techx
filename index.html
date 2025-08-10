@@ -16,19 +16,21 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/critical.css">
+  <link rel="stylesheet" href="./assets/css/print.css" media="print">"
 
   <!-- 
-    - google font link
+    - icons
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
-    rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" referrerpolicy="no-referrer">
   <!-- 
     - preload image
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="assets/images/hero-banner.webp" fetchpriority="high"
+              imagesrcset="assets/images/hero-banner-400.webp 400w,
+              assets/images/hero-banner-800.webp 800w,
+              assets/images/hero-banner-1200.webp 1200w"
+              imagesizes="50vw">
 </head>
 
 <body id="top">
@@ -99,8 +101,11 @@
         <div class="container">
 
           <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="804" height="643" loading="lazy" alt="hero banner"
-              class="w-100">
+            <img src="./assets/images/hero-banner.webp" alt="hero banner"
+              class="w-100" fetchpriority="high"
+              srcset="assets/images/hero-banner-400.webp 400w,
+              assets/images/hero-banner-800.webp 800w,
+              assets/images/hero-banner-1200.webp 1200w" sizes="50vw">
           </figure>
 
           <div class="hero-content">
@@ -184,8 +189,8 @@
               <div class="service-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/service-1.gif" width="728" height="344" loading="lazy" alt="support"
-                    class="w-100">
+                  <video src="./assets/images/service-1.webm" width="728" height="344"
+                  autoplay loop muted playsinline preload="none" class="w-100"></video>
                 </figure>
 
                 <div class="card-content">
@@ -214,8 +219,8 @@
               <div class="service-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/service-2.gif" width="728" height="344" loading="lazy" alt="Engagement"
-                    class="w-100">
+                  <video src="./assets/images/service-2.webm" width="728" height="344"
+                  autoplay loop muted playsinline preload="none" class="w-100"></video>
                 </figure>
 
                 <div class="card-content">
@@ -244,8 +249,8 @@
               <div class="service-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/service-3.gif" width="728" height="344" loading="lazy" alt="Marketing"
-                    class="w-100">
+                  <video src="./assets/images/service-3.webm" width="728" height="344"
+                  autoplay loop muted playsinline preload="none" class="w-100"></video>
                 </figure>
 
                 <div class="card-content">
@@ -333,12 +338,12 @@
           <div class="banner-wrapper">
 
             <figure class="features-banner one">
-              <img src="./assets/images/features-banner-1.gif" width="600" height="500" loading="lazy"
-                alt="features image" class="w-100">
+              <video src="./assets/images/features-banner-1.webm" width="600" height="500"
+                  autoplay loop muted playsinline preload="none" class="w-100"></video>
             </figure>
 
             <figure class="features-banner two">
-              <img src="./assets/images/features-banner-2.png" width="436" height="311" loading="lazy"
+              <img src="./assets/images/features-banner-2.webp" width="436" height="311" loading="lazy"
                 alt="features image" class="w-100">
             </figure>
 
@@ -510,8 +515,11 @@
         <div class="container">
 
           <figure class="stats-banner">
-            <img src="./assets/images/stats-banner.png" width="619" height="482" loading="lazy" alt="stats"
-              class="w-100">
+            <img src="./assets/images/stats-banner.webp" width="619" height="482" alt="stats banner"
+              class="w-100"
+              srcset="assets/images/stats-banner-400.webp 400w,
+              assets/images/stats-banner-800.webp 800w,
+              assets/images/stats-banner-1200.webp 1200w" sizes="50vw" loading="lazy">
           </figure>
 
           <ul class="stats-list">
@@ -603,8 +611,11 @@
           </div>
 
           <figure class="app-banner">
-            <img src="./assets/images/app-banner.png" width="748" height="536" loading="lazy" alt="app screenshot"
-              class="w-100">
+            <img src="./assets/images/app-banner.webp" width="748" height="536" alt="app screenshot"
+              class="w-100"
+              srcset="assets/images/app-banner-400.webp 400w,
+              assets/images/app-banner-800.webp 800w,
+              assets/images/app-banner-1200.webp 1200w" sizes="50vw" loading="lazy">
           </figure>
 
         </div>
@@ -656,7 +667,7 @@
           <a href="#" class="logo">Techx</a>
 
           <figure class="footer-img">
-            <img src="./assets/images/footer-img.png" width="264" height="226" loading="lazy" aria-hidden="true"
+            <img src="./assets/images/footer-img.webp" width="168" height="143" loading="lazy" aria-hidden="true"
               class="w-100">
           </figure>
         </div>
@@ -803,13 +814,13 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+  <script defer src="./assets/js/script.js"></script>
 
   <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 

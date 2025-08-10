@@ -1,0 +1,112 @@
+/*-----------------------------------*\
+  #critical.css
+\*-----------------------------------*/
+
+/**
+ * Ce fichier contient les styles CSS critiques nécessaires pour le rendu initial de la page.
+ * À inclure dans le <head> pour améliorer le temps de chargement perçu.
+ */
+
+:root {
+  --gold-web-golden: hsl(50, 95%, 56%);
+  --spanish-orange: hsl(24, 100%, 45%);
+  --persian-green: hsl(175, 80%, 33%);
+  --granite-gray: hsl(0, 0%, 40%);
+  --spring-green: hsl(143, 85%, 58%);
+  --ultramarine: hsl(260, 100%, 44%);
+  --blue-violet: hsl(272, 76%, 53%);
+  --smoky-black: hsl(0, 0%, 7%);
+  --dark-orange: hsl(33, 100%, 50%);
+  --winter-sky: hsl(332, 100%, 51%);
+  --cultured-1: hsl(0, 0%, 98%);
+  --white-1: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --ff-spartan: 'League Spartan', sans-serif;
+  --fs-1: 3rem;
+  --fs-2: 2.7rem;
+  --fs-3: 2.2rem;
+  --fs-4: 1.8rem;
+  --fw-700: 700;
+  --fw-900: 900;
+  --section-padding: 60px;
+  --radius-6: 6px;
+  --gradient-1: linear-gradient(to right, var(--winter-sky), var(--dark-orange));
+  --transition-1: 0.25s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white-1);
+  color: var(--granite-gray);
+  font-family: var(--ff-spartan);
+  font-size: 1.6rem;
+}
+
+h1, h2, h3 {
+  color: var(--black);
+  font-weight: var(--fw-900);
+  line-height: 1.3;
+}
+
+h1 { font-size: var(--fs-1); }
+h2 { font-size: var(--fs-2); }
+h3 { font-size: var(--fs-3); font-weight: var(--fw-700); }
+
+.container { padding-inline: 15px; }
+.section { padding-block: var(--section-padding); }
+
+.btn {
+  min-height: 50px;
+  color: var(--white-1);
+  padding-inline: 25px;
+  border-radius: var(--radius-6);
+}
+
+.btn-primary { background-image: var(--gradient-1); }
+
+.header {
+  background-color: var(--white-1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-block: 20px;
+  z-index: 4;
+}
+
+.logo {
+  color: var(--smoky-black);
+  font-size: 3.5rem;
+  font-weight: var(--fw-700);
+  line-height: 1;
+}
+
+.hero {
+  padding-block-start: calc(73px + var(--section-padding));
+  background-color: var(--cultured-1);
+}
+
+.hero-title { margin-block: 30px 15px; }
+
+@media (min-width: 768px) {
+  body { font-size: 2rem; }
+  :root {
+    --fs-1: 5rem;
+    --fs-2: 3.5rem;
+    --fs-3: 2.5rem;
+  }
+  .container { max-width: 720px; }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --fs-1: 6rem;
+    --fs-2: 5rem;
+  }
+  .container { max-width: 1140px; }
+}

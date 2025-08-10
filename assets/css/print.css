@@ -1,0 +1,61 @@
+/*-----------------------------------*\
+  #print.css
+\*-----------------------------------*/
+
+/**
+ * Feuille de style pour l'impression du site techx
+ * À lier dans le <head> avec media="print"
+ */
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  header, nav, .header, .footer, .back-top-btn, .btn, .btn-link, .support, .app, .features, .about, .stats {
+    display: none !important;
+  }
+
+  main, .container, .service, .service-list, .service-card, .card-content {
+    display: block !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    background: none !important;
+    color: #000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    page-break-after: avoid;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+    word-break: break-all;
+  }
+
+  img, video {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid;
+  }
+
+  ul, ol {
+    padding-left: 2em;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  @page {
+    margin: 1.5cm;
+    size: A4 portrait;
+  }
+}
