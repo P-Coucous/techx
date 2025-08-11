@@ -30,7 +30,7 @@
 </head>
 
 <body id="top">
-
+<a href="#main-content" class="skip-link">Skip to main content</a>
   <!-- 
     - #HEADER
   -->
@@ -42,11 +42,20 @@
         <a href="#" class="logo">Techx</a>
       </h1>
 
-      <nav class="navbar container" data-navbar>
+      <button class="floating-hamburger" id="floatingHamburger" aria-controls="main-navigation" aria-label="Open the navigation menu" aria-expanded="false">
+        <span class="menu-icon" aria-hidden="true">
+          <img src="./assets/images/burger.png" alt="" width="24" height="24" loading="lazy">
+        </span>
+        <span class="close-icon" aria-hidden="true" hidden>
+          <img src="./assets/images/close.png" width="24" height="24" loading="lazy" alt="">
+        </span>
+      </button>
+
+      <nav class="navbar container" id="main-navigation" aria-hidden="true" tabindex="-1" data-navbar>
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            <a href="#home" class="navbar-link" aria-current="page" data-nav-link>Home</a>
           </li>
 
           <li class="navbar-item">
@@ -72,36 +81,17 @@
         </ul>
       </nav>
 
-      <button class="btn btn-secondary">Get Started</button>
-
-      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggle-btn>
-        <a href="" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
-            <img src="./assets/images/burger.png" alt="Menu hamburger" width="24" height="24" loading="lazy">
-        </a>
-        <a href="" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
-            <img src="./assets/images/close.png" alt="Fermer le menu" width="24" height="24" loading="lazy">
-        </a>
-      </button>
+      <button class="btn btn-secondary" type="button">Get Started</button>
 
     </div>
   </header>
 
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
+  <main id="main-content">
       <section class="section hero" id="home">
         <div class="container">
 
           <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.webp" alt="hero banner"
+            <img src="./assets/images/hero-banner.webp" alt="" aria-hidden="true"
               class="w-100" fetchpriority="high"
               srcset="assets/images/hero-banner-400.webp 400w,
               assets/images/hero-banner-800.webp 800w,
@@ -119,44 +109,45 @@
             </p>
 
             <form action="" class="hero-form">
-              <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="Enter Your Email"
-                required class="input-field">
-
-              <button type="submit" class="btn btn-primary">Start Free Trial</button>
+              <label for="hero-email">Email address</label>
+              <div class="hero-form-row">
+                <input type="email" id="hero-email" name="email_address" placeholder="Enter Your Email"
+                  required class="input-field">
+                <button type="submit" class="btn btn-primary">Start Free Trial</button>
+              </div>
             </form>
 
             <ul class="hero-list">
 
               <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="" aria-hidden="true">
 
                 <span class="span">Live Chat</span>
               </li>
 
               <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="" aria-hidden="true">
 
                 <span class="span">Ticketing</span>
               </li>
 
               <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="" aria-hidden="true">
 
                 <span class="span">Knowledge Base</span>
               </li>
 
               <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="" aria-hidden="true">
 
                 <span class="span">Chat pages</span>
               </li>
 
               <li class="hero-item">
-                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="Checkmark icon">
+                <img src="./assets/images/check-circle.svg" width="16" height="16" loading="lazy" alt="" aria-hidden="true">
 
                 <span class="span">Team chat</span>
               </li>
-
             </ul>
 
           </div>
@@ -189,8 +180,8 @@
               <div class="service-card">
 
                 <figure class="card-banner">
-                  <video src="./assets/images/service-1.webm" width="728" height="344"
-                  preload="metadata" muted playsinline class="w-100"></video>
+                  <video src="./assets/images/service-1.webm"
+                  preload="none" muted playsinline class="w-100" aria-hidden="true"></video>
                 </figure>
 
                 <div class="card-content">
@@ -204,6 +195,10 @@
                     adipiscing elit.
                   </p>
 
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                  </a>
+
                 </div>
 
               </div>
@@ -213,8 +208,8 @@
               <div class="service-card">
 
                 <figure class="card-banner">
-                  <video src="./assets/images/service-2.webm" width="728" height="344"
-                  preload="metadata" muted playsinline class="w-100"></video>
+                  <video src="./assets/images/service-2.webm"
+                  preload="none" muted playsinline class="w-100" aria-hidden="true"></video>
                 </figure>
 
                 <div class="card-content">
@@ -228,6 +223,10 @@
                     adipiscing elit.
                   </p>
 
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                  </a>
+
                 </div>
 
               </div>
@@ -237,8 +236,8 @@
               <div class="service-card">
 
                 <figure class="card-banner">
-                  <video src="./assets/images/service-3.webm" width="728" height="344"
-                  preload="metadata" muted playsinline class="w-100"></video>
+                  <video src="./assets/images/service-3.webm"
+                  preload="none" muted playsinline class="w-100" aria-hidden="true"></video>
                 </figure>
 
                 <div class="card-content">
@@ -324,24 +323,19 @@
           <div class="banner-wrapper">
 
             <figure class="features-banner one">
-              <video src="./assets/images/features-banner-1.webm" width="600" height="500"
+              <video src="./assets/images/features-banner-1.webm" width="600" height="500"  aria-hidden="true"
                   autoplay loop muted playsinline preload="none" class="w-100"></video>
             </figure>
 
             <figure class="features-banner two">
-              <img src="./assets/images/features-banner-2.webp" width="436" height="311" loading="lazy"
-                alt="features image" class="w-100">
+              <img src="./assets/images/features-banner-2.webp" width="436" height="311" loading="lazy" alt="Screenshot of the software"
+                class="w-100">
             </figure>
 
           </div>
 
         </div>
       </section>
-
-
-
-
-
       <!-- 
         - #ABOUT
       -->
@@ -363,8 +357,7 @@
               <div class="about-card about-card-1">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/about-img-1.svg" width="94" height="94" loading="lazy"
-                    alt="Automated Ticket Routing">
+                  <img src="./assets/images/about-img-1.svg" width="94" height="94" loading="lazy" alt="" aria-hidden="true">
                 </figure>
 
                 <div class="card-content">
@@ -390,8 +383,7 @@
               <div class="about-card about-card-2">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/about-img-2.svg" width="94" height="94" loading="lazy"
-                    alt="Workflow Automation">
+                  <img src="./assets/images/about-img-2.svg" width="94" height="94" loading="lazy" alt="" aria-hidden="true">
                 </figure>
 
                 <div class="card-content">
@@ -418,8 +410,7 @@
               <div class="about-card about-card-3">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/about-img-3.svg" width="94" height="94" loading="lazy"
-                    alt="Automated Callback">
+                  <img src="./assets/images/about-img-3.svg" width="94" height="94" loading="lazy" alt="" aria-hidden="true">
                 </figure>
 
                 <div class="card-content">
@@ -445,8 +436,7 @@
               <div class="about-card about-card-4">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/about-img-4.svg" width="94" height="94" loading="lazy"
-                    alt="Customer Feedback Surveys">
+                  <img src="./assets/images/about-img-4.svg" width="94" height="94" loading="lazy" alt="" aria-hidden="true">
                 </figure>
 
                 <div class="card-content">
@@ -479,11 +469,6 @@
 
         </div>
       </section>
-
-
-
-
-
       <!-- 
         - #STATS
       -->
@@ -492,7 +477,7 @@
         <div class="container">
 
           <figure class="stats-banner">
-            <img src="./assets/images/stats-banner.webp" width="619" height="482" alt="stats banner"
+            <img src="./assets/images/stats-banner.webp" width="619" height="482" alt="" aria-hidden="true"
               class="w-100"
               srcset="assets/images/stats-banner-400.webp 400w,
               assets/images/stats-banner-800.webp 800w,
@@ -541,11 +526,6 @@
 
         </div>
       </section>
-
-
-
-
-
       <!-- 
         - #APP
       -->
@@ -566,7 +546,7 @@
             <div class="btn-group">
 
               <a href="#" class="btn btn-primary">
-                <img src="./assets/images/play-store.svg" width="30" height="31" loading="lazy" alt="play store icon">
+                <img src="./assets/images/play-store.svg" width="30" height="31" loading="lazy" alt="Download on Play Store">
 
                 <span class="span">
                   GET IT ON
@@ -575,7 +555,7 @@
               </a>
 
               <a href="#" class="btn btn-secondary">
-                <img src="./assets/images/apple-store.svg" width="30" height="31" loading="lazy" alt="apple store icon">
+                <img src="./assets/images/apple-store.svg" width="30" height="31" loading="lazy" alt="Download on Apple Store">
 
                 <span class="span">
                   GET IT ON
@@ -597,11 +577,6 @@
 
         </div>
       </section>
-
-
-
-
-
       <!-- 
         - #SUPPORT
       -->
@@ -618,19 +593,10 @@
               in our support center:
             </p>
           </div>
-
           <a href="#" class="btn btn-primary">Contact Us Now</a>
-
         </div>
       </section>
-
-    </article>
   </main>
-
-
-
-
-
   <!-- 
     - #FOOTER
   -->
@@ -644,7 +610,7 @@
           <a href="#" class="logo">Techx</a>
 
           <figure class="footer-img">
-            <img src="./assets/images/footer-img.webp" width="168" height="143" loading="lazy" aria-hidden="true"
+            <img src="./assets/images/footer-img.webp" width="168" height="143" loading="lazy" aria-hidden="true" alt=""
               class="w-100">
           </figure>
         </div>
@@ -771,22 +737,9 @@
     </div>
 
   </footer>
-
-
-
-
-
   <!-- 
-    - #BACK TO TOP
+    - #HAMBURGER
   -->
-
-  <a href="" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
-    <img src="./assets/images/chevron.png" alt="Flèche vers le haut" width="24" height="24" loading="lazy">
-  </a>
-
-
-
-
 
   <!-- 
     - custom js link
