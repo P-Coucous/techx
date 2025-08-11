@@ -40,3 +40,15 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+// Limiter animations vidéos
+const opts = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (!opts) {
+  const videos = document.querySelectorAll('video');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if (e.isIntersecting) e.target.play(); else e.target.pause();
+    });
+  }, {rootMargin: '200px'});
+  videos.forEach(v=>io.observe(v));
+}

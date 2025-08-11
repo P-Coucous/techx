@@ -1,0 +1,34 @@
+{
+  "name": "techx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site Techx optimisé avec build en dist",
+  "scripts": {
+    "dev": "parcel serve index.html --port 3000",
+    "build": "parcel build index.html --dist-dir dist --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-Coucous/techx.git"
+  },
+  "keywords": [
+    "ecoindex",
+    "html",
+    "css",
+    "javascript",
+    "parcel",
+    "build"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P-Coucous/techx/issues"
+  },
+  "homepage": "https://github.com/P-Coucous/techx#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
