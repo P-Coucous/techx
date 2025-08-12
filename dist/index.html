@@ -1,5 +1,17 @@
-<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Techx - Make Chat Easy</title><link rel="icon shortcut" href=favicon.ce0eb935.svg type=image/svg+xml><link rel=stylesheet href=techx.58f39b4c.css><link rel=preload href=style.8b174b92.css as=style onload="this.rel='stylesheet'"><noscript><link rel="stylesheet" href="./assets/css/style.css"></noscript><link rel=preload as=image href=hero-banner.85486ad2.webp fetchpriority=high imagesrcset="hero-banner-400.37c9e13c.webp 400w, hero-banner-800.29053bbc.webp 800w, hero-banner-1200.c5cfdb0d.webp 1200w" imagesizes=50vw><body id=top>
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Techx - Make Chat Easy</title><link rel="icon shortcut" href=favicon.ce0eb935.svg type=image/svg+xml><link rel=stylesheet href=style.b1e63037.css><link rel=stylesheet href=techx.58f39b4c.css><link rel=stylesheet href=techx.02acfad3.css media=print><body id=top>"
 
+  
+  <link href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css rel=stylesheet referrerpolicy=no-referrer>
+  <link rel=stylesheet href=techx.58f39b4c.css>
+  <link rel=preload href=style.b1e63037.css as=style onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="./assets/css/style.css"></noscript>
+
+  
+    <link rel=preload as=image href=hero-banner.85486ad2.webp fetchpriority=high imagesrcset="hero-banner-400.37c9e13c.webp 400w, hero-banner-800.29053bbc.webp 800w, hero-banner-1200.c5cfdb0d.webp 1200w" imagesizes=50vw>
+
+
+
+<a href=#main-content class=skip-link>Skip to main content</a>
   
 
   <header class=header data-header>
@@ -9,11 +21,20 @@
         <a href=# class=logo>Techx</a>
       </h1>
 
-      <nav class="container navbar" data-navbar>
+      <button class=floating-hamburger id=floatingHamburger aria-controls=main-navigation aria-label="Open the navigation menu" aria-expanded=false>
+        <span class=menu-icon aria-hidden=true>
+          <img src=burger.e19ab08d.png alt width=24 height=24 loading=lazy>
+        </span>
+        <span class=close-icon aria-hidden=true hidden>
+          <img src=close.7b004512.png width=24 height=24 loading=lazy alt>
+        </span>
+      </button>
+
+      <nav class="container navbar" id=main-navigation aria-hidden=true tabindex=-1 data-navbar>
         <ul class=navbar-list>
 
           <li class=navbar-item>
-            <a href=#home class=navbar-link data-nav-link>Home</a>
+            <a href=#home class=navbar-link aria-current=page data-nav-link>Home</a>
           </li>
 
           <li class=navbar-item>
@@ -39,29 +60,12 @@
         </ul>
       </nav>
 
-      <button class="btn btn-secondary">Get Started</button>
-
-      <button class=nav-toggle-btn aria-label="Toggle menu" data-nav-toggle-btn>
-        <a class=back-top-btn aria-label="Back to top" data-back-top-btn>
-            <img src=burger.e19ab08d.png alt="Menu hamburger" width=24 height=24 loading=lazy>
-        </a>
-        <a class=back-top-btn aria-label="Back to top" data-back-top-btn>
-            <img src=close.7b004512.png alt="Fermer le menu" width=24 height=24 loading=lazy>
-        </a>
-      </button>
+      <button class="btn btn-secondary" type=button>Get Started</button>
 
     </div>
   </header>
 
-
-
-
-
-  <main>
-    <article>
-
-      
-
+  <main id=main-content>
       <section class="hero section" id=home>
         <div class=container>
 
@@ -80,50 +84,57 @@
             </p>
 
             <form class=hero-form>
-              <input type=email name=email_address placeholder="Enter Your Email" aria-label="Enter Your Email" required class=input-field>
-
-              <button class="btn btn-primary">Start Free Trial</button>
+              <label for=hero-email>Email address</label>
+              <div class=hero-form-row>
+                <input type=email id=hero-email name=email_address placeholder="Enter Your Email" required class=input-field>
+                <button class="btn btn-primary">Start Free Trial</button>
+              </div>
             </form>
 
             <ul class=hero-list>
 
               <li class=hero-item>
-                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt="Checkmark icon">
+                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt aria-hidden=true>
 
                 <span class=span>Live Chat</span>
               </li>
 
               <li class=hero-item>
-                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt="Checkmark icon">
+                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt aria-hidden=true>
 
                 <span class=span>Ticketing</span>
               </li>
 
               <li class=hero-item>
-                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt="Checkmark icon">
+                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt aria-hidden=true>
 
                 <span class=span>Knowledge Base</span>
               </li>
 
               <li class=hero-item>
-                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt="Checkmark icon">
+                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt aria-hidden=true>
 
                 <span class=span>Chat pages</span>
               </li>
 
               <li class=hero-item>
-                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt="Checkmark icon">
+                <img src=check-circle.dd627a72.svg width=16 height=16 loading=lazy alt aria-hidden=true>
 
                 <span class=span>Team chat</span>
               </li>
-
             </ul>
 
           </div>
 
         </div>
       </section>
+
+
+
+
+
       
+
       <section class="section service" id=services>
         <div class=container>
 
@@ -141,7 +152,7 @@
               <div class=service-card>
 
                 <figure class=card-banner>
-                  <video data-src=service-1.ac54f1c5.webm width=728 height=344 preload="none" muted playsinline class=w-100></video>
+                  <video src=service-1.ac54f1c5.webm width=728 height=344 autoplay loop muted playsinline preload=none class=w-100></video>
                 </figure>
 
                 <div class=card-content>
@@ -168,7 +179,7 @@
               <div class=service-card>
 
                 <figure class=card-banner>
-                  <video data-src=service-2.01988260.webm width=728 height=344 preload="none" muted playsinline class=w-100></video>
+                  <video src=service-2.01988260.webm width=728 height=344 autoplay loop muted playsinline preload=none class=w-100></video>
                 </figure>
 
                 <div class=card-content>
@@ -195,7 +206,7 @@
               <div class=service-card>
 
                 <figure class=card-banner>
-                  <video data-src=service-3.a51b7602.webm width=728 height=344 preload="none" muted playsinline class=w-100></video>
+                  <video src=service-3.a51b7602.webm width=728 height=344 autoplay loop muted playsinline preload=none class=w-100></video>
                 </figure>
 
                 <div class=card-content>
@@ -275,7 +286,7 @@
           <div class=banner-wrapper>
 
             <figure class="features-banner one">
-              <video data-src=features-banner-1.c6dedefb.webm width=600 height=500 muted playsinline preload="none" class=w-100></video>
+              <video src=features-banner-1.c6dedefb.webm width=600 height=500 autoplay loop muted playsinline preload=none class=w-100></video>
             </figure>
 
             <figure class="features-banner two">
@@ -286,11 +297,6 @@
 
         </div>
       </section>
-
-
-
-
-
       
 
       <section class="about section" id=about>
@@ -310,7 +316,7 @@
               <div class="about-card about-card-1">
 
                 <figure class=card-banner>
-                  <img src=about-img-1.b191e34a.svg width=94 height=94 loading=lazy alt="Automated Ticket Routing">
+                  <img src=about-img-1.svg width=94 height=94 loading=lazy alt aria-hidden=true>
                 </figure>
 
                 <div class=card-content>
@@ -336,7 +342,7 @@
               <div class="about-card about-card-2">
 
                 <figure class=card-banner>
-                  <img src=about-img-2.aa16b04f.svg width=94 height=94 loading=lazy alt="Workflow Automation">
+                  <img src=about-img-2.svg width=94 height=94 loading=lazy alt aria-hidden=true>
                 </figure>
 
                 <div class=card-content>
@@ -363,7 +369,7 @@
               <div class="about-card about-card-3">
 
                 <figure class=card-banner>
-                  <img src=about-img-3.cbc69b79.svg width=94 height=94 loading=lazy alt="Automated Callback">
+                  <img src=about-img-3.cbc69b79.svg width=94 height=94 loading=lazy alt aria-hidden=true>
                 </figure>
 
                 <div class=card-content>
@@ -389,7 +395,7 @@
               <div class="about-card about-card-4">
 
                 <figure class=card-banner>
-                  <img src=about-img-4.87f0134d.svg width=94 height=94 loading=lazy alt="Customer Feedback Surveys">
+                  <img src=about-img-4.svg width=94 height=94 loading=lazy alt aria-hidden=true>
                 </figure>
 
                 <div class=card-content>
@@ -422,11 +428,6 @@
 
         </div>
       </section>
-
-
-
-
-
       
 
       <section class="section stats">
@@ -478,11 +479,6 @@
 
         </div>
       </section>
-
-
-
-
-
       
 
       <section class="app section">
@@ -501,7 +497,7 @@
             <div class=btn-group>
 
               <a href=# class="btn btn-primary">
-                <img src=play-store.4809b7e8.svg width=30 height=31 loading=lazy alt="play store icon">
+                <img src=play-store.4809b7e8.svg width=30 height=31 loading=lazy alt="Download on Play Store">
 
                 <span class=span>
                   GET IT ON
@@ -510,7 +506,7 @@
               </a>
 
               <a href=# class="btn btn-secondary">
-                <img src=apple-store.a70e68a3.svg width=30 height=31 loading=lazy alt="apple store icon">
+                <img src=apple-store.a70e68a3.svg width=30 height=31 loading=lazy alt="Download on Apple Store">
 
                 <span class=span>
                   GET IT ON
@@ -528,11 +524,6 @@
 
         </div>
       </section>
-
-
-
-
-
       
 
       <section class="section support">
@@ -547,19 +538,10 @@
               in our support center:
             </p>
           </div>
-
           <a href=# class="btn btn-primary">Contact Us Now</a>
-
         </div>
       </section>
-
-    </article>
   </main>
-
-
-
-
-
   
 
   <footer class=footer>
@@ -677,7 +659,6 @@
         </p>
 
         <ul class=footer-bottom-list>
-
           <li>
             <a href=# class=footer-bottom-link>Privacy Policy</a>
           </li>
@@ -696,33 +677,14 @@
     </div>
 
   </footer>
-
-
-
-
-
   
 
-  <a class=back-top-btn aria-label="Back to top" data-back-top-btn>
-    <img src=chevron.e3f11cb9.png alt="Flèche vers le haut" width=24 height=24 loading=lazy>
-  </a>
-
-
-
-
-   <script>
-    (function(){
-      if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-      const io = new IntersectionObserver((es)=>es.forEach(e=>{
-        const v=e.target;
-        if(e.isIntersecting){ if(!v.src&&v.dataset.src){ v.src=v.dataset.src } v.play().catch(()=>{}) }
-        else v.pause();
-      }),{rootMargin:'200px'});
-      document.querySelectorAll('video[preload="none"]').forEach(v=>io.observe(v));
-    })();
-  </script>
   
-  <script defer src=techx.44290125.js></script>
+  <script defer src=techx.a8e7e7f7.js></script>
+
+  
+  <script defer type=module src=https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js></script>
+  <script defer nomodule src=https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js></script>
 
 
 

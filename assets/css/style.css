@@ -21,15 +21,14 @@
    */
 
   --gold-web-golden: hsl(50, 95%, 56%);
-  --spanish-orange: hsl(24, 100%, 45%);
   --persian-green: hsl(175, 80%, 33%);
   --granite-gray: hsl(0, 0%, 40%);
-  --spring-green: hsl(143, 85%, 58%);
-  --ultramarine: hsl(260, 100%, 44%);
+  --spring-green: #197B3F;
+  --ultramarine: #4b00e0;
   --blue-violet: hsl(272, 76%, 53%);
   --smoky-black: hsl(0, 0%, 7%);
-  --dark-orange: hsl(33, 100%, 50%);
-  --winter-sky: #E40487;
+  --dark-orange: #AE570B;
+  --winter-sky: #DD0441;
   --cultured-1: hsl(0, 0%, 98%);
   --cultured-2: hsl(0, 0%, 95%);
   --cultured-3: hsl(0, 0%, 94%);
@@ -228,15 +227,16 @@ body {
   border-radius: var(--radius-6);
 }
 
-.btn-primary { background-image: var(--gradient-1); }
+.btn-primary { background-image: none; background-color: hsl(339, 89%, 48%); }
 
-.btn-secondary { background-image: var(--gradient-2); }
+.btn-secondary { background-image: none; background-color: #5607E1; }
 
 .btn-link {
   display: flex;
   align-items: center;
   gap: 5px;
   transition: var(--transition-1);
+  text-decoration: underline;
 }
 
 .btn-link:is(:hover, :focus) { letter-spacing: 0.3px; }
@@ -555,27 +555,24 @@ body {
   border-radius: var(--radius-12);
 }
 
-.about-card-1 { background-image: var(--gradient-3); }
+.about-card-1 { background-image: none; background-color: #EB0F3C; }
 
-.about-card-2 { background-image: var(--gradient-4); }
+.about-card-2 { background-image: none; background-color: #5607E1; }
 
-.about-card-3 { background-image: var(--gradient-5); }
+.about-card-3 { background-image: none; background-color: #038674; }
 
-.about-card-4 { background-image: var(--gradient-6); }
+.about-card-4 { background-image: none; background-color: #C9510C; }
 
 .about-card .card-banner {
   min-width: 150px;
   height: 150px;
   aspect-ratio: 1 / 1;
-  background-color: var(--white_50);
+  background-color: var(--white-1);
   border-radius: 50%;
   display: grid;
   place-items: center;
   margin-inline: auto;
-  transition: var(--transition-2);
 }
-
-.about-card:is(:hover, :focus-within) .card-banner { background-color: var(--white-1); }
 
 .about-card .card-title {
   color: var(--white-1);
@@ -709,7 +706,7 @@ body {
 \*-----------------------------------*/
 
 .support {
-  background-image: var(--gradient-2);
+  background-color: #5607e1;
   color: var(--white-1);
 }
 
@@ -806,10 +803,11 @@ body {
 .copyright-link {
   display: inline-block;
   font-weight: var(--fw-600);
-  background-image: var(--gradient-3);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+  color: #e30441;
+  background: none;
+  -webkit-text-fill-color: unset;
+  background-clip: unset;
+  -webkit-background-clip: unset;
 }
 
 .footer-bottom-list {

@@ -1,4 +1,4 @@
-3592
+3605
 37C:\Users\Siham\Documents\techx\assets133993062491015855 1
 80C:\Users\Siham\Documents\techx\node_modules\@parcel\transformer-babel\lib\jsx.js133993077968968941 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\AT.js133993077996598297 0
@@ -9,16 +9,22 @@
 67C:\Users\Siham\Documents\techx\node_modules\json5\dist\index.min.js133993077937641312 0
 92C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133993078012141897 0
 53C:\Users\Siham\Documents\techx\node_modules\@mischnic133993077864931129 1
+83C:\Users\Siham\Documents\techx\node_modules\@parcel\packager-svg\lib\SVGPackager.js133993077932037898 0
+68C:\Users\Siham\Documents\techx\node_modules\detect-libc\package.json133993077893447374 0
+55C:\Users\Siham\Documents\techx\dist\.vercel\vercel.json133993095465841362 0
+56C:\Users\Siham\Documents\techx\dist\favicon.ce0eb935.svg133993080927944180 0
+93C:\Users\Siham\Documents\techx\node_modules\@parcel\utils\test\input\sourcemap\source-root.js133993078012898137 0
+46C:\Users\Siham\Documents\techx\index copy.html133994019590580247 0
 78C:\Users\Siham\Documents\techx\node_modules\@parcel\core\src\RequestTracker.js133993078034152498 0
 73C:\Users\Siham\Documents\techx\node_modules\@parcel\optimizer-svg\LICENSE133993077923022713 0
 93C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133993078012593728 0
 82C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\css-zoom.js133993078056367454 0
 42C:\Users\Siham\Documents\techx\favicon.svg133993052870691145 0
-35C:\Users\Siham\Documents\techx\dist133993080933581299 1
+35C:\Users\Siham\Documents\techx\dist133994020957734722 1
 96C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\_\_class_private_field_set\package.json133993078052818379 0
 90C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\wasm-multi-value.js133993078126572742 0
 70C:\Users\Siham\Documents\techx\node_modules\lightningcss\node\flags.js133993077954876692 0
-41C:\Users\Siham\Documents\techx\index.html133993076747289806 0
+41C:\Users\Siham\Documents\techx\index.html133994020070213072 0
 65C:\Users\Siham\Documents\techx\node_modules\escalade\package.json133993077916312694 0
 64C:\Users\Siham\Documents\techx\node_modules\ordered-binary\.idea133993077973123501 1
 40C:\Users\Siham\Documents\techx\index.txt133993052870729420 0
@@ -38,17 +44,17 @@
 92C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\keyboardevent-code.js133993078096310305 0
 66C:\Users\Siham\Documents\techx\node_modules\commander\lib\error.js133993077947331615 0
 43C:\Users\Siham\Documents\techx\node_modules133993079989536304 1
+89C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\input-minlength.js133993078090693577 0
+68C:\Users\Siham\Documents\techx\node_modules\@parcel\reporter-cli\lib133993077975952982 1
+60C:\Users\Siham\Documents\techx\node_modules\lmdb\src\txn.cpp133993078020406539 0
+75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\LC.js133993078098989435 0
+48C:\Users\Siham\Documents\techx\package-lock.json133993080331095519 0
 61C:\Users\Siham\Documents\techx\node_modules\@msgpackr-extract133993078152568481 1
 75C:\Users\Siham\Documents\techx\node_modules\@parcel\source-map\dist\wasm.js133993077977238562 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\SB.js133993078115243582 0
 63C:\Users\Siham\Documents\techx\node_modules\micromatch\index.js133993077901741726 0
 78C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\cjs\_create_class.cjs133993077991380265 0
 43C:\Users\Siham\Documents\techx\package.json133993080819911301 0
-89C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\input-minlength.js133993078090693577 0
-68C:\Users\Siham\Documents\techx\node_modules\@parcel\reporter-cli\lib133993077975952982 1
-60C:\Users\Siham\Documents\techx\node_modules\lmdb\src\txn.cpp133993078020406539 0
-75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\LC.js133993078098989435 0
-48C:\Users\Siham\Documents\techx\package-lock.json133993080331095519 0
 81C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\flexbox.js133993078072749792 0
 49C:\Users\Siham\Documents\techx\node_modules\@lmdb133993078152610053 1
 76C:\Users\Siham\Documents\techx\node_modules\@parcel\core\lib\public\Asset.js133993077983478148 0
@@ -71,6 +77,10 @@
 80C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\stream.js133993078118491578 0
 101C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest4.c133993078014931902 0
 45C:\Users\Siham\Documents\techx\style-guide.md133993052870767325 0
+42C:\Users\Siham\Documents\techx\vercel.json133993095465841362 0
+82C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\css-grid.js133993078042197592 0
+79C:\Users\Siham\Documents\techx\node_modules\@parcel\config-default\package.json133993077947604337 0
+75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\HR.js133993078080098487 0
 69C:\Users\Siham\Documents\techx\node_modules\node-addon-api\LICENSE.md133993077976323207 0
 94C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\intersectionobserver.js133993078094118104 0
 70C:\Users\Siham\Documents\techx\node_modules\@parcel\graph\src\index.js133993077977746828 0
@@ -122,11 +132,6 @@
 80C:\Users\Siham\Documents\techx\node_modules\@parcel\source-map\dist\wasm.js.flow133993077947265974 0
 74C:\Users\Siham\Documents\techx\node_modules\@parcel\utils\lib\index.js.map133993078023849999 0
 82C:\Users\Siham\Documents\techx\node_modules\ordered-binary\.nyc_output\processinfo133993077954841454 1
-115C:\Users\Siham\Documents\techx\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.ps1133993078131264378 0
-84C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\array-find.js133993077990266784 0
-66C:\Users\Siham\Documents\techx\node_modules\@parcel\optimizer-html133993077940450197 1
-99C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lz4\lib\dll\example\fullbench-dll.sln133993078037490278 0
-50C:\Users\Siham\Documents\techx\node_modules\semver133993078002300113 1
 52C:\Users\Siham\Documents\techx\node_modules\get-port133993077943051120 1
 62C:\Users\Siham\Documents\techx\node_modules\@parcel\diagnostic133993077951931573 1
 50C:\Users\Siham\Documents\techx\node_modules\base-x133993077932808335 1
@@ -258,6 +263,11 @@
 63C:\Users\Siham\Documents\techx\node_modules\regenerator-runtime133993077931288658 1
 80C:\Users\Siham\Documents\techx\node_modules\@parcel\core\test\serializer.test.js133993078036906760 0
 89C:\Users\Siham\Documents\techx\node_modules\lmdb\node_modules\node-addon-api\package.json133993077981368523 0
+115C:\Users\Siham\Documents\techx\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.ps1133993078131264378 0
+84C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\array-find.js133993077990266784 0
+66C:\Users\Siham\Documents\techx\node_modules\@parcel\optimizer-html133993077940450197 1
+99C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lz4\lib\dll\example\fullbench-dll.sln133993078037490278 0
+50C:\Users\Siham\Documents\techx\node_modules\semver133993078002300113 1
 70C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\dist\unpacker133993078114035384 1
 58C:\Users\Siham\Documents\techx\node_modules\supports-color133993077918378713 1
 79C:\Users\Siham\Documents\techx\node_modules\@parcel\core\test\fixtures\main-mjs133993078052008636 1
@@ -432,7 +442,7 @@
 77C:\Users\Siham\Documents\techx\node_modules\update-browserslist-db\index.d.ts133993077947665298 0
 75C:\Users\Siham\Documents\techx\node_modules\update-browserslist-db\index.js133993077932652572 0
 58C:\Users\Siham\Documents\techx\node_modules\semver\LICENSE133993077906533192 0
-46C:\Users\Siham\Documents\techx\dist\index.html133993080931442897 0
+46C:\Users\Siham\Documents\techx\dist\index.html133994020957411552 0
 69C:\Users\Siham\Documents\techx\node_modules\msgpackr\rollup.config.js133993077977996398 0
 91C:\Users\Siham\Documents\techx\node_modules\@parcel\resolver-default\src\DefaultResolver.js133993077936103320 0
 69C:\Users\Siham\Documents\techx\node_modules\escalade\sync\index.d.mts133993077943066257 0
@@ -457,7 +467,7 @@
 63C:\Users\Siham\Documents\techx\node_modules\type-fest\base.d.ts133993077947440629 0
 73C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\cjs\_type_of.cjs133993078017073673 0
 100C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\tooltag133993077978646849 0
-50C:\Users\Siham\Documents\techx\assets\js\script.js133993066794350507 0
+50C:\Users\Siham\Documents\techx\assets\js\script.js133993822674887800 0
 64C:\Users\Siham\Documents\techx\node_modules\type-fest\index.d.ts133993077975280530 0
 124C:\Users\Siham\Documents\techx\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\node-gyp-build.js133993077947604337 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\SN.js133993078117225323 0
@@ -574,8 +584,8 @@
 85C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\_\_ts_generator\package.json133993078071766820 0
 69C:\Users\Siham\Documents\techx\node_modules\tslib\CopyrightNotice.txt133993077956360199 0
 93C:\Users\Siham\Documents\techx\node_modules\@parcel\error-overlay\src\components\CodeBlock.js133993077926269018 0
-75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\SK.js133993078117051871 0
 79C:\Users\Siham\Documents\techx\node_modules\type-fest\source\tsconfig-json.d.ts133993077995222933 0
+75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\SK.js133993078117051871 0
 88C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\rel-noreferrer.js133993078114131113 0
 86C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\script-async.js133993078115408052 0
 95C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\_\_create_for_of_iterator_helper_loose133993078055821706 1
@@ -1030,6 +1040,7 @@
 70C:\Users\Siham\Documents\techx\node_modules\node-addon-api\except.gypi133993077921830446 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\EG.js133993078067677360 0
 64C:\Users\Siham\Documents\techx\node_modules\msgpackr\unpack.d.ts133993078009419499 0
+54C:\Users\Siham\Documents\techx\dist\.vercel\README.txt133993087969139227 0
 80C:\Users\Siham\Documents\techx\node_modules\@parcel\package-manager\package.json133993077990478624 0
 80C:\Users\Siham\Documents\techx\node_modules\node-addon-api\napi-inl.deprecated.h133993077934616930 0
 65C:\Users\Siham\Documents\techx\node_modules\msgpackr\package.json133993077986818236 0
@@ -1113,9 +1124,6 @@
 120C:\Users\Siham\Documents\techx\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133993078131279546 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\BH.js133993078010812343 0
 64C:\Users\Siham\Documents\techx\node_modules\msgpackr\index.d.cts133993077949762303 0
-88C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\iframe-sandbox.js133993078082282536 0
-69C:\Users\Siham\Documents\techx\node_modules\@parcel\core\lib\requests133993078044943805 1
-96C:\Users\Siham\Documents\techx\node_modules\lmdb\node_modules\node-addon-api\tools\conversion.js133993077976610116 0
 74C:\Users\Siham\Documents\techx\node_modules\@parcel\core\lib\Validation.js133993078043563105 0
 93C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\cjs\_check_private_redeclaration.cjs133993077959580108 0
 61C:\Users\Siham\Documents\techx\node_modules\msgpackr\index.js133993077969301087 0
@@ -1192,8 +1200,6 @@
 70C:\Users\Siham\Documents\techx\node_modules\lmdb\util\RangeIterable.js133993078032751269 0
 75C:\Users\Siham\Documents\techx\node_modules\lmdb\util\set-optional-deps.cjs133993078018250353 0
 61C:\Users\Siham\Documents\techx\node_modules\lmdb\util\when.js133993078033501610 0
-101C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest5.c133993078015582940 0
-98C:\Users\Siham\Documents\techx\node_modules\lmdb\node_modules\node-addon-api\tools\clang-format.js133993077974391118 0
 95C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_class_apply_descriptor_update.mjs133993078076132834 0
 68C:\Users\Siham\Documents\techx\node_modules\lmdb\src\compression.cpp133993078018453196 0
 89C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\iframe-seamless.js133993078082627679 0
@@ -1210,7 +1216,7 @@
 96C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\contentsecuritypolicy2.js133993078025574120 0
 84C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\es6-module.js133993078069297710 0
 71C:\Users\Siham\Documents\techx\node_modules\lmdb\src\ordered-binary.cpp133993078020252050 0
-55C:\Users\Siham\Documents\techx\dist\burger.e19ab08d.png133993080928979663 0
+55C:\Users\Siham\Documents\techx\dist\burger.e19ab08d.png133994020955140366 0
 69C:\Users\Siham\Documents\techx\node_modules\lmdb\src\v8-functions.cpp133993078020656131 0
 94C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\spellcheck-attribute.js133993078117718273 0
 85C:\Users\Siham\Documents\techx\node_modules\lmdb\node_modules\node-addon-api\index.js133993077978621658 0
@@ -1238,6 +1244,11 @@
 78C:\Users\Siham\Documents\techx\node_modules\@parcel\feature-flags\src\index.js133993077944595313 0
 86C:\Users\Siham\Documents\techx\node_modules\lmdb\node_modules\node-addon-api\README.md133993077983468108 0
 96C:\Users\Siham\Documents\techx\node_modules\lmdb\node_modules\node-addon-api\tools\check-napi.js133993077972598694 0
+101C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest5.c133993078015582940 0
+98C:\Users\Siham\Documents\techx\node_modules\lmdb\node_modules\node-addon-api\tools\clang-format.js133993077974391118 0
+88C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\iframe-sandbox.js133993078082282536 0
+69C:\Users\Siham\Documents\techx\node_modules\@parcel\core\lib\requests133993078044943805 1
+96C:\Users\Siham\Documents\techx\node_modules\lmdb\node_modules\node-addon-api\tools\conversion.js133993077976610116 0
 66C:\Users\Siham\Documents\techx\node_modules\commander\package.json133993077962378452 0
 59C:\Users\Siham\Documents\techx\assets\images\service-2.webm133993061667821215 0
 94C:\Users\Siham\Documents\techx\node_modules\@parcel\error-overlay\src\listenToRuntimeErrors.js133993077974134552 0
@@ -1343,7 +1354,7 @@
 93C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133993077973627254 0
 83C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\css-masks.js133993078044278017 0
 85C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\css3-colors.js133993078056867882 0
-54C:\Users\Siham\Documents\techx\dist\close.7b004512.png133993080930280485 0
+54C:\Users\Siham\Documents\techx\dist\close.7b004512.png133994020955140366 0
 73C:\Users\Siham\Documents\techx\node_modules\@lezer\lr\dist\constants.d.ts133993077961896772 0
 90C:\Users\Siham\Documents\techx\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb.c133993078009866344 0
 71C:\Users\Siham\Documents\techx\node_modules\dotenv-expand\lib\main.d.ts133993077950306501 0
@@ -1516,6 +1527,7 @@
 90C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\user-select-none.js133993078124792440 0
 66C:\Users\Siham\Documents\techx\node_modules\escalade\sync\index.js133993077907934847 0
 67C:\Users\Siham\Documents\techx\node_modules\escalade\sync\index.mjs133993077935397741 0
+54C:\Users\Siham\Documents\techx\dist\style.b1e63037.css133994020957381327 0
 61C:\Users\Siham\Documents\techx\dist\hero-banner.85486ad2.webp133993080929241387 0
 78C:\Users\Siham\Documents\techx\node_modules\@parcel\graph\lib\AdjacencyList.js133993077936664011 0
 66C:\Users\Siham\Documents\techx\node_modules\escalade\dist\index.js133993077893267806 0
@@ -1566,8 +1578,6 @@
 94C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\internationalization.js133993078093611383 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\OM.js133993078109745636 0
 63C:\Users\Siham\Documents\techx\node_modules\detect-libc\LICENSE133993077924676918 0
-83C:\Users\Siham\Documents\techx\node_modules\@parcel\packager-svg\lib\SVGPackager.js133993077932037898 0
-68C:\Users\Siham\Documents\techx\node_modules\detect-libc\package.json133993077893447374 0
 57C:\Users\Siham\Documents\techx\node_modules\commander\lib133993077956561102 1
 61C:\Users\Siham\Documents\techx\node_modules\commander\LICENSE133993077927042409 0
 61C:\Users\Siham\Documents\techx\node_modules\commander\typings133993077973907449 1
@@ -1647,6 +1657,7 @@
 71C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\agents.js133993077967775978 0
 73C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\browsers.js133993078015947059 0
 69C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions133993078129450691 1
+57C:\Users\Siham\Documents\techx\dist\techx.a8e7e7f7.js.map133994020957670376 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\AE.js133993077954466243 0
 75C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_ts_values.mjs133993078091820678 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\AG.js133993077958623649 0
@@ -1720,9 +1731,6 @@
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\GY.js133993078078687147 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\HK.js133993078079942371 0
 79C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\_\_non_iterable_spread133993078065131611 1
-82C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\css-grid.js133993078042197592 0
-79C:\Users\Siham\Documents\techx\node_modules\@parcel\config-default\package.json133993077947604337 0
-75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\HR.js133993078080098487 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\HT.js133993078080302485 0
 92C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\cjs\_object_destructuring_empty.cjs133993078008654427 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\HU.js133993078081201596 0
@@ -1745,6 +1753,7 @@
 79C:\Users\Siham\Documents\techx\node_modules\@parcel\transformer-babel\README.md133993077981186954 0
 81C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\features\css-all.js133993078027298829 0
 77C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\_\_iterable_to_array133993078063494937 1
+46C:\Users\Siham\Documents\techx\dist\.gitignore133993087969169012 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\PK.js133993078111920806 0
 124C:\Users\Siham\Documents\techx\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\parcel_sourcemap_wasm_bg.wasm133993078020918328 0
 75C:\Users\Siham\Documents\techx\node_modules\caniuse-lite\data\regions\IT.js133993078094823053 0
@@ -2624,8 +2633,8 @@
 85C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_non_iterable_spread.mjs133993078083298782 0
 79C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_object_spread.mjs133993078083666870 0
 85C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_object_spread_props.mjs133993078083611315 0
-91C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_object_without_properties.mjs133993078084100921 0
 88C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\esm\_class_private_field_set.js133993078025322596 0
+91C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_object_without_properties.mjs133993078084100921 0
 81C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_sliced_to_array.mjs133993078088127898 0
 80C:\Users\Siham\Documents\techx\node_modules\@parcel\watcher\src\watchman\BSER.hh133993077983186240 0
 89C:\Users\Siham\Documents\techx\node_modules\@swc\helpers\src\_tagged_template_literal.mjs133993078088519101 0
@@ -2969,8 +2978,6 @@
 88C:\Users\Siham\Documents\techx\node_modules\@parcel\utils\test\input\sourcemap\inline.js133993078006640405 0
 81C:\Users\Siham\Documents\techx\node_modules\@parcel\core\src\public\Dependency.js133993078010812343 0
 94C:\Users\Siham\Documents\techx\node_modules\@parcel\utils\test\input\sourcemap\no-sourcemap.js133993078007592010 0
-56C:\Users\Siham\Documents\techx\dist\favicon.ce0eb935.svg133993080927944180 0
-93C:\Users\Siham\Documents\techx\node_modules\@parcel\utils\test\input\sourcemap\source-root.js133993078012898137 0
 87C:\Users\Siham\Documents\techx\node_modules\@parcel\utils\test\input\config\config.json133993078017118852 0
 78C:\Users\Siham\Documents\techx\node_modules\@parcel\core\lib\InternalConfig.js133993078019124162 0
 75C:\Users\Siham\Documents\techx\node_modules\@parcel\plugin\lib\PluginAPI.js133993077926971146 0
@@ -3066,7 +3073,6 @@
 72C:\Users\Siham\Documents\techx\node_modules\@parcel\transformer-json\src133993077932934194 1
 91C:\Users\Siham\Documents\techx\node_modules\@parcel\transformer-json\src\JSONTransformer.js133993077934012216 0
 79C:\Users\Siham\Documents\techx\node_modules\@parcel\transformer-js\package.json133993077950553109 0
-56C:\Users\Siham\Documents\techx\dist\chevron.e3f11cb9.png133993080927954250 0
 70C:\Users\Siham\Documents\techx\node_modules\@parcel\transformer-js\src133993077953520569 1
 67C:\Users\Siham\Documents\techx\assets\images\stats-banner-1200.webp133993061671376992 0
 90C:\Users\Siham\Documents\techx\node_modules\@parcel\transformer-js\src\esmodule-helpers.js133993077933992203 0
@@ -3148,7 +3154,7 @@
 71C:\Users\Siham\Documents\techx\node_modules\@parcel\rust\lib\browser.js133993077929977760 0
 69C:\Users\Siham\Documents\techx\node_modules\@parcel\rust\lib\index.js133993077944475019 0
 69C:\Users\Siham\Documents\techx\node_modules\@parcel\rust\lib\utils.js133993077948360956 0
-51C:\Users\Siham\Documents\techx\assets\css\style.css133993065833353366 0
+51C:\Users\Siham\Documents\techx\assets\css\style.css133994019262765558 0
 87C:\Users\Siham\Documents\techx\node_modules\@parcel\runtime-service-worker\package.json133993077937800900 0
 102C:\Users\Siham\Documents\techx\node_modules\@parcel\runtime-service-worker\lib\ServiceWorkerRuntime.js133993077928318494 0
 111C:\Users\Siham\Documents\techx\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\index.js133993077962287333 0
@@ -3556,6 +3562,7 @@
 59C:\Users\Siham\Documents\techx\node_modules\.bin\semver.ps1133993078131122226 0
 71C:\Users\Siham\Documents\techx\node_modules\.bin\update-browserslist-db133993078131279546 0
 75C:\Users\Siham\Documents\techx\node_modules\.bin\update-browserslist-db.ps1133993078131274381 0
+43C:\Users\Siham\Documents\techx\dist\.vercel133993096421429876 1
 60C:\Users\Siham\Documents\techx\dist\about-img-1.b191e34a.svg133993080928989654 0
 60C:\Users\Siham\Documents\techx\dist\about-img-2.aa16b04f.svg133993080930280485 0
 60C:\Users\Siham\Documents\techx\dist\about-img-3.cbc69b79.svg133993080927944180 0
@@ -3569,8 +3576,14 @@
 64C:\Users\Siham\Documents\techx\dist\features-icon-2.bce09ec2.svg133993080929251447 0
 60C:\Users\Siham\Documents\techx\dist\footer-img.b6f5f29e.webp133993080928890674 0
 66C:\Users\Siham\Documents\techx\dist\stats-banner-800.d1e8cdde.webp133993080928890674 0
+58C:\Users\Siham\Documents\techx\dist\style.b1e63037.css.map133994020957691244 0
+54C:\Users\Siham\Documents\techx\dist\techx.02acfad3.css133994020957431570 0
+56C:\Users\Siham\Documents\techx\assets\css\style copy.css133994017697029705 0
+58C:\Users\Siham\Documents\techx\dist\techx.02acfad3.css.map133994020957670376 0
 54C:\Users\Siham\Documents\techx\dist\techx.58f39b4c.css133993080931403377 0
-41C:\Users\Siham\Documents\techx\assets\css133993063472197673 1
+53C:\Users\Siham\Documents\techx\dist\techx.a8e7e7f7.js133994020957411552 0
+56C:\Users\Siham\Documents\techx\dist\.vercel\project.json133993087969081580 0
+41C:\Users\Siham\Documents\techx\assets\css133994018992968793 1
 44C:\Users\Siham\Documents\techx\assets\images133993072962128391 1
 40C:\Users\Siham\Documents\techx\assets\js133993052870681089 1
 65C:\Users\Siham\Documents\techx\assets\images\app-banner-1200.webp133993061620338971 0
