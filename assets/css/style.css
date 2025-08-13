@@ -1335,6 +1335,50 @@ body {
 }
 
 @media (max-width: 991px) {
+  .navbar {
+    position: fixed;
+    right: auto;
+    left: 50%;
+    bottom: 88px;   
+    top: auto;
+    width: 260px;
+    max-width: 90vw;
+    background-color: var(--white-1);
+    box-shadow: var(--shadow-2);
+    border-radius: var(--radius-12);
+    overflow: hidden;
+    visibility: hidden;
+    max-height: 0;
+    transition: 0.25s var(--cubic-out);
+    z-index: 101;
+  }
+  .navbar.active {
+    visibility: visible;
+    max-height: 90vh;
+    overflow-y: auto;
+    transition-duration: 0.35s;
+    max-height: 98vh;
+  }
+  .navbar-link {
+    font-size: 1.9rem;
+    padding: 32px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    width: 400px;
+    max-width: 98vw;
+    right: auto;
+    left: 80%;
+  }
+  .navbar-link {
+    font-size: 2.8rem;
+    padding: 42px;
+  }
+}
+
+@media (max-width: 991px) {
   .service-list {
     display: grid;
     grid-template-columns: 1fr;
