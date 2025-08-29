@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)\\.map", "destination": "/404.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.(css|js|svg|webp|avif|webm|png|jpg|woff2)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    }
+  ]
+}

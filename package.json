@@ -5,7 +5,7 @@
   "description": "Site Techx optimisé avec build en dist",
   "scripts": {
     "dev": "parcel serve index.html --port 3000",
-    "build": "parcel build index.html --dist-dir dist --public-url ./"
+    "build": "parcel build index.html --dist-dir dist --public-url ./ --no-source-maps"
   },
   "repository": {
     "type": "git",
